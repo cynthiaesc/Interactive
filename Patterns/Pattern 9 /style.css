@@ -1,0 +1,87 @@
+
+
+
+body {
+	background-color: black; 
+	margin: 0; 
+}
+
+
+/*#squares {
+    width: 110vw;
+    position: fixed;
+    top: 0vw; 
+    left: -5vw; 
+}
+#squares div{
+	height: 10vw;
+    width: 10vw;
+    background-color: tomato;
+    margin: 2vw;
+    float: left;*/
+}
+
+
+
+
+
+#circles {
+    width: 110vw;
+    position: fixed;
+    top: -5vw; 
+    left: -5vw; 
+}
+
+
+
+#circles div {
+	height: 20vw;
+	width: 20vw;
+	background-color: rgba(214,210,196,.5);
+	border-radius: 50%;
+	margin: 5vw;
+	float: left;
+
+}
+
+
+#circles2 {
+    width: 110vw;
+    position: fixed;
+    top: 0vw; 
+    left: 0vw; 
+}
+
+
+
+#circles2 div {
+	height: 10vw;
+	width: 10vw;
+	background-color: black;
+	border-radius: 50%;
+	margin: 5vw;
+	float: left;
+
+}
+
+#triangles {
+	width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 30;
+}
+
+#triangles div { 
+	
+	width: 0;
+	height: 0;
+	
+    border-left: 10vw solid transparent;
+    border-right: 10vw solid transparent;
+    border-bottom: 20vw solid rgba(229,109,177, .3);
+	float: left;
+    transform: rotate(20deg); 
+    box-shadow: 20px 20px 20px rgba(50,50,50,.5);
+    mix-blend-mode: overlay;
+}
