@@ -1,0 +1,94 @@
+
+
+
+body {
+	background-color: white; 
+	margin: 0; 
+}
+
+
+#squares {
+    width: 110vw;
+    position: fixed;
+    top: 0vw; 
+    left: 1vw; 
+}
+
+#squares div{
+	height: 10vw;
+    width: 10vw;
+    background-color: rgba(100, 204, 201, .45);
+    margin: 2vw;
+    float: left;
+    transform: rotate(-45deg);
+     box-shadow: 20px 20px 20px rgba(50,50,50,.5);
+   
+    mix-blend-mode: overlay;
+
+}
+
+
+
+
+
+#circles {
+    width: 110vw;
+    position: fixed;
+    top: -5vw; 
+    left: -5vw; 
+}
+
+
+
+#circles div {
+	height: 20vw;
+	width: 20vw;
+	background-color: rgba(214,210,196,.5);
+	border-radius: 50%;
+	margin: 5vw;
+	float: left;
+
+}
+
+
+#circles2 {
+    width: 110vw;
+    position: fixed;
+    top: 0vw; 
+    left: -0vw; 
+}
+
+
+
+#circles2 div {
+	height: 10vw;
+	width: 10vw;
+	background-color: rgba(0, 0, 0, .49);
+	border: 10px solid rgb(255, 255, 255);
+	border-radius: 50%;
+	margin: 5vw;
+	float: left;
+
+}
+
+#triangles {
+	width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 30;
+}
+
+#triangles div { 
+	
+	width: 5vw;
+	height:5vh;
+    border-left: 10vw solid transparent;
+    border-right: 10vw solid transparent;
+    border-bottom: 20vw solid rgba(229,109,177, .3);
+	float: left;
+    transform: rotate(20deg); 
+    
+}
+
+
