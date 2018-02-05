@@ -1,0 +1,48 @@
+body {
+	background-color: rgba(196, 191, 182, 0.5); 
+	margin: 0vw; /* on most browsers the body has a 
+				  default margin of 8px */
+}
+
+#squares {
+	
+    position: static;
+   margin: -8 0 0 0vw; 
+    float: right;
+
+  
+}
+
+#squares div{
+	height: 100vh; 
+    width: 1vw;
+    background-color: rgb(226, 188, 203);
+    margin: 1vw;
+    float: left;
+    
+}
+
+
+
+
+#squares2 {
+	
+    position: fixed;
+   margin: -6 0 0 0vw; 
+   top: -0vw;
+   left: -0vw;
+
+    float: right;
+   width: 110vw;
+
+  
+}
+
+#squares2 div{
+	height: 100vh; 				 
+    width: 2vw;
+    background-color: rgb(124, 105, 146);
+    margin: 1vw;
+    float: left;
+
+}
