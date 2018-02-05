@@ -1,0 +1,45 @@
+body {
+	background-color: rgb(116, 209, 234); 
+	margin: 0; /
+}
+
+#triangles {
+	width: 100vw;
+    height: 100vh;
+    position: static;
+    top: 0;
+    left: 0;
+}
+
+#triangles div { 
+	
+	width: 0;
+	height: 0;
+    border-left: 5vw solid transparent;
+    border-right: 5vw solid transparent;
+    border-bottom: 10vw solid rgb(0, 35, 156);
+	float: left;
+  
+}
+
+#triangles2 {
+	position: absolute; 
+	width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+}
+
+#triangles2 div { 
+	
+	width: 0;
+	height: 0;
+	
+    border-left: 2.5vw solid transparent;
+    border-right: 2.5vw solid transparent;
+    border-bottom: 5vw solid rgb(246, 235, 97);
+	float: left;
+
+
+  
+}
