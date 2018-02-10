@@ -1,0 +1,66 @@
+
+
+body {
+		background-color: white;
+	margin: 0; 
+}
+
+
+
+#star-six {
+	margin-left: -30px;
+
+}
+
+
+
+#star-six div{
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid rgba(0, 0, 0,.5);
+	position: relative;
+	 float: right;
+}
+#star-six div:after {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 100px solid rgba(255, 200, 251,.5);
+	position: absolute;
+	content: "";
+	top: 30px;
+	left: -50px;
+
+  box-shadow: 20px 20px 20px rgba(50,50,50,.5);
+    
+    mix-blend-mode: overlay;
+}
+	
+
+
+
+
+
+
+#circles {
+    width: 110vw; 
+    position: fixed;
+    top: -5vw;
+    left: -5vw; 
+    transform: roate(-15deg); 
+  }
+#circles div {
+	height: 1vw;
+	width: 1vw;
+	background-color: rgb(217, 145, 251);
+	border-radius: 50%;
+	margin: 5vw;
+	float: left;
+}
+
+
+
+
