@@ -1,0 +1,58 @@
+
+body {
+  background-color: white;
+  margin: 0; 
+}
+
+#squaresB {
+
+}
+
+#squaresB div{
+	height: 3vw; 
+    width: 3vw;
+    background-color: grey;
+    margin: 2vw;
+    float: right;
+}
+
+#squaresA  {
+
+	width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+#squaresA div{
+  width: 100px;
+  height: 55px;
+  background: rgba(10,255,206, .4);
+  position: relative;
+  float: left;
+  margin: 30px;
+}
+
+#squaresC  {
+
+  width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+#squaresC div{
+  width: 20vw;
+  height: 20vh;
+  background: yellow;
+  position: relative;
+  float: left;
+  margin: 2vw;
+  opacity: .5; 
+}
+
+
