@@ -26,6 +26,13 @@ body {
 
 }
 
+#triangles2 div:hover {
+
+	transform: rotate(15deg);
+border-top: 5vw solid rgba(239, 74, 129, .5);
+
+}
+
 
 
 #triangles2 {

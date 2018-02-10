@@ -1,0 +1,46 @@
+
+
+body {
+	background-color: white; 
+	margin: 0; 
+}
+
+
+#squares {
+    width: 110vw;
+    position: fixed;
+    top: 0vw; 
+    left: 1vw; 
+}
+
+#squares div{
+	height: 10vw;
+    width: 10vw;
+    background-color: rgba(100, 204, 201, .45);
+    margin: 2vw;
+    float: left;
+}
+
+
+
+
+#circles2 {
+    width: 110vw;
+    position: fixed;
+    top: 0vw; 
+    left: -0vw; 
+}
+
+
+
+#circles2 div {
+	height: 10vw;
+	width: 10vw;
+	background-color: rgba(0, 0, 0, .49);
+	border: 10px solid rgb(255, 255, 255);
+	border-radius: 50%;
+	margin: 5vw;
+	float: left;
+
+}
+

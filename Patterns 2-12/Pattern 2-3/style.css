@@ -1,0 +1,35 @@
+
+
+body {
+	background-color: white; 
+	margin: 0; 
+}
+
+
+#squares {
+    width: 110vw;
+    position: fixed;
+    top: 0vw; 
+    left: 1vw; 
+}
+
+#squares div{
+	height: 10vw;
+    width: 10vw;
+    background-color: rgba(100, 204, 201, .45);
+    margin: 2vw;
+    float: left;
+    transform: rotate(45deg);
+}
+
+
+#squares div:hover { 
+
+    background-color: rgba(36, 175, 193, .5);
+    transform: scale(1, 50); 
+}
+
+
+          
+
+
