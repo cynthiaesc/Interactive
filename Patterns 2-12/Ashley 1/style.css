@@ -1,0 +1,88 @@
+body {
+    background-color: white;
+}
+
+#triangle {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    clear: both;   
+}
+
+#triangle div {
+    border-left: 10vh solid transparent;
+	border-right: 5vh solid transparent;
+	border-bottom:30vh solid black;
+    display:block;
+    
+    float: left;
+    margin: 8vw;
+}
+
+#triangle_2 {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    clear: both;    
+}
+
+#triangle_2 div {
+    border-left: 30vh solid transparent;
+	border-right: 15vh solid transparent;
+	border-bottom:30vh solid black;
+    display:block;
+    
+    float: left;
+    margin: 10vw;
+    opacity: .5;
+}
+
+#circles {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    
+    
+}
+
+#circles div {
+
+	width: 30vw;
+	height: 30vw;
+	background-color: white;
+    
+    opacity: .1;
+    margin: 10vw;
+    float: right;
+    border-radius: 50%;
+    
+    display:block;
+
+}
+
+#circles div:hover {
+    opacity: .9
+
+
+
+}
+
+#circles_2 {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    
+    
+}
+
+#circles_2 div {
+
+	width: 2vw;
+	height: 2vw;
+	background-color: black;
+    display:block;
+    margin: 10vw;
+    float: left;
+    border-radius: 50%;
+}
+
