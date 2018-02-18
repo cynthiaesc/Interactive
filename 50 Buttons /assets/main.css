@@ -1,0 +1,454 @@
+/* reset padding and margins */
+
+* {
+	margin: 1px;
+	padding: 1px;
+}
+
+body {
+	font-family: helvetica, arial, sans-serif;
+	color: white;
+
+}
+
+/* container */
+
+.container {
+	position: relative;
+}
+
+/* items */
+
+.item {
+	height: 300px;
+	width: 300px;
+	background: hotpink;
+	margin: 5px;
+
+	/* comment out 'float: left;' to have items stack in a single column */
+	float: left; 
+
+	/* uncomment this to get CSS transitions (conflicts with jQuery) */
+	/* transition: all 500ms ease; */
+}
+
+/* example buttons */
+
+#button-1:hover {
+
+	transform: rotate(45deg) scale(1.5);
+	opacity: .2;
+
+}
+
+
+/* example buttons */
+
+#button-2::after {
+	content: '2';
+	
+	
+}
+
+#button-2:hover::after {
+	line-height: 20em;
+	content: 'Hello';
+	color: white;
+}
+
+
+
+
+#button-3:hover {
+	background-color: pink;
+	transition: all 2s;
+}
+
+
+#button-4 {
+	background-color: pink; 
+}
+
+
+
+#button-4:active {
+	background-color: grey; 
+}
+
+
+#button-5:hover {
+	background-color: black; 
+}
+
+#button-6:hover {
+	border-radius: 50%; 
+	background-color: black;
+}
+
+#button-7:hover {
+	height: 150px;
+	width: 150px;
+	background: black;
+	transition: all 2s;
+}
+
+#button-8 {
+	background-color: pink; 
+	
+
+
+}
+
+
+#button-8:active {
+	height: 200px; 
+	width: 200px; 
+}
+
+
+
+#button-9::after {
+	background-color: pink;
+}
+
+
+#button-9:hover::after {
+	background-color: white;
+
+	color: hotpink;
+	content: 'Cynthia' 
+
+}
+
+
+#button-10:hover {
+	border-radius: 50%;
+	
+	transition-duration: 2s; 		
+}
+
+#button-11:hover {
+transition-duration: 2s; 
+	transform: rotate(45deg) 
+}
+
+
+#button-12 {
+	background-color: pink; 
+	
+
+
+}
+
+
+#button-12:active {
+	background-color: hotpink; 
+	opacity: .1; 
+
+}
+
+#button-13:hover {
+	 width: 500px;
+
+}
+
+#button-14{
+	background-color: pink; 
+	
+
+}
+
+
+#button-14:active {
+	
+	 height: 500px;
+
+}
+
+
+
+#button-15:hover {
+	height: 200px; 
+	width: 200px; 
+	transition-duration: 5s; 
+}
+
+#button-16:hover {
+transition-duration: 5s; 
+	transform: rotate(360deg) 
+}
+
+
+#button-17:hover {
+	transition: all 2s; 
+	width: 600px; 
+
+
+}
+
+#button-18:hover {
+	background-color: white;
+}
+
+#button-19:hover {
+	 box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+
+
+#button-20:hover {
+	background-color: white;
+	border: 4px solid hotpink;
+}
+
+#button-21:hover {
+	transform: skewX(20deg);
+}
+
+
+#button-22:hover {
+	transform: skewY(20deg);
+}
+
+#button-23:hover {
+	transform: skewY(20deg);
+	transform: skew(20deg,10deg);
+}
+
+#button-24:hover {
+	
+	transform: translate(50px,100px);
+	
+}
+
+#button-25:hover {
+	transition: all 2s; 
+	transform: translate(150px,150px);
+	
+}
+
+#button-26:hover {
+	border-radius: 20px; 
+	transition: all 1s;
+	
+}
+
+
+#button-27:hover {
+	transition: all 2s;
+	font-size: 200px; 
+	
+}
+
+#button-28:hover {
+	transition-duration: 2s; 
+	transform: rotateX(360deg);
+}
+
+#button-29:hover {
+
+background-color: white;
+	border: 4px solid hotpink;
+	transition-duration: 2s; 
+	 transform: rotateY(360deg);
+}
+
+#button-30:hover {
+	transition: all 2s;
+transform: rotateZ(90deg);
+
+}
+
+#button-31 {
+resize: vertical;
+    overflow: auto;
+
+}
+
+#button-32:hover {
+
+    outline: 3px solid black;
+   
+    outline-offset: 15px;
+
+}
+
+#button-33:hover {
+
+transition: all 5s; 
+    outline: solid white;
+   
+    outline-offset: -25px;
+}
+
+
+#button-34:hover {
+background: linear-gradient(white, hotpink);
+
+}
+
+
+#button-35:hover {
+background: linear-gradient(blackara, hotpink);
+
+}
+
+
+#button-36:hover {
+box-shadow: 10px 10px grey;
+
+
+}
+
+
+#button-37 {
+	background-color: white;
+	border: 2px solid hotpink;
+
+
+}
+
+
+#button-37:hover {
+	background-color: hotpink; 
+
+
+}
+
+#button-38 {
+	background-color: white;
+	border: 2px solid hotpink;
+
+
+}
+
+
+#button-38:hover {
+	border: 2px dashed hotpink;
+
+
+}
+
+#button-39:hover {
+	background-color: white; 
+	border: 2px dashed hotpink;
+
+
+}
+
+#button-40:hover {
+	
+	transition: all 5s; 
+    outline: solid pink;
+   
+    outline-offset: -150px;
+}
+	
+	
+#button-41:hover {
+	
+	transition: all 5s; 
+    outline: solid black;
+   
+    outline-offset: 500px;
+}
+
+
+#button-42:hover {
+	background-color: white;
+	width: 0;
+	height: 0;
+	transition: all 2s; 
+	border-left: 150px solid transparent;
+	border-right: 150px solid transparent;
+	border-bottom: 300px solid black;
+}
+
+#button-43:hover {
+	transition: all 2s; 
+	background-color: white; 
+	border-bottom: 200px solid black;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	height: 0;
+	width: 100px;
+}
+
+	
+#button-44:hover {
+	transition: all 2s; 
+	transform: translate(-500px,-500px);
+	
+}
+
+#button-45 {
+	background-color: pink; 
+	
+}
+
+#button-45:active {
+	transition: all 2s; 
+	background-color: black;
+	
+}
+
+
+#button-46 {
+	background-color: pink; 
+	
+}
+
+#button-46:active {
+	transform: scale(.5);
+	
+}
+
+
+#button-47:hover {
+	transition: all 2s; 
+	transform: scale(.1);
+	
+}
+
+#button-48:hover {
+	transition: all 2s; 
+	transform: scale(5);
+	opacity: .5;
+	
+}
+
+
+#button-49:hover {
+	border-radius: 50%; 
+	transition: all 2s; 
+	transform: scale(.5);
+	
+	
+}
+
+#button-50:hover {
+
+	
+
+	transform: scale(10);
+
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+.change-yellow { 
+	background-color: yellow;
+	transition: all 2s;
+}
+
+
+ 

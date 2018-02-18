@@ -2,27 +2,77 @@ body{
 	background-color: white;
 	font-family: "Roboto Slab"; 
   margin: 30px; 
-  
+  text-transform: lowercase;
+}
+
+h1 {
+  font-weight: normal;
+  margin: 10px; 
+  font-size: 50px; 
+  color: black;
+  /*padding: 0px 5px; */
+}
+
+#column1 {
+  float: left;
+  width: 30vw;
+}
+
+#column2 {
+  float: left;
+  width: 30vw;
+}
+
+#column3{
+  float: right;
+  width: 30vw;
 }
     
-    h1 { 
+    h2 { 
       margin: 10px; 
-      display:inline-block;
-      background: #EFC050;
+      /*display:inline-block;
+      background: #EFC050;*/
       font-weight: normal;
       font-size: 40px; 
-      color: white;
-      padding: 0px 5px;  
-
+      color: black;
+      /*padding: 0px 5px;*/  
       }
 
-    h2 {
+    h3 {
       font-size: 30px; 
       color: #C3C5C4;
-      margin: 15px
+      margin: 15px;
+
       }
 
     a {
-      margin: 20px
-      
+      color:hotpink;
+      text-decoration: none;
+      margin: 15px;
     }
+
+    a:hover{
+    color: grey;
+
+ }
+
+
+
+ div.running-head {
+    position: fixed;
+    z-index: 0;
+    height: 100vh;
+    width: 4em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    right: 0;
+} div.running-head span {
+    
+    font-size: 1.5em;
+    margin: 2em 0;
+    transform: rotate(90deg);
+    min-width: 14em;
+     color: #C3C5C4; 
+}
