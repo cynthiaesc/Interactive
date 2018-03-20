@@ -1,0 +1,32 @@
+
+
+body {
+
+	font-family: helvetica, arial, sans-serif;
+	color: black;
+	font-size: 500px;
+	text-align: center;
+
+
+}
+
+.container {
+	margin: auto; 
+	position: relative;
+}
+
+		#button-A: {
+
+			width: 100px; 
+			height: 100px; 
+			background-color: red; 
+		}
+
+		#button-A:hover {
+			background-size: 100% auto; 
+
+		/*	(or cover)*/
+
+			background-image: url('a.jpg'); 
+		}
+

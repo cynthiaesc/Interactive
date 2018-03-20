@@ -1,0 +1,85 @@
+/* reset padding and margins */
+
+* {
+	margin: auto;
+	
+}
+
+body {
+
+	font-family: helvetica, arial, sans-serif;
+	color: black;
+	font-size: 500px;
+	text-align: center;
+
+
+}
+
+/* container */
+
+.container {
+	margin: auto; 
+	position: relative;
+}
+
+/* items */
+
+.item {
+	height: 700px;
+	width: 700px;
+	outline: 1px; 
+
+	
+
+	/* comment out 'float: left;' to have items stack in a single column */
+	float: center; 
+
+	/* uncomment this to get CSS transitions (conflicts with jQuery) */
+	/* transition: all 500ms ease; */
+}
+
+
+#left, #right {
+  position: fixed;
+  top: 0; bottom: 0;
+  width: 35px;
+
+}
+#left { left: 0; }
+#right { right: 0; }
+
+
+
+.corner {
+  background-color: tomato;
+  transition:background-color .52s ease;
+}
+
+.corner.blue {
+  background-color: red;
+}
+
+.corner.green {
+  background-color: green;
+}
+
+
+/* example buttons */
+
+/*.item:hover {
+
+	color: transparent;
+	background-size: 100% auto; 
+	opacity: .2;
+
+}*/
+
+#button-B:hover {
+
+	opacity: .2;
+	background-size: 100% auto; 
+	background-image: url('b.jpg'); 
+
+}
+
+
