@@ -1,0 +1,36 @@
+.container {
+	margin: auto; 
+	position: relative;
+}
+
+.item {
+	height: 700px;
+	width: 700px;
+	outline: 1px; 
+	float: center; 
+	background: grey;
+
+}
+	
+
+	/* comment out 'float: left;' to have items stack in a single column */
+
+
+
+
+		#button-A: {
+
+			width: 100px; 
+			height: 100px; 
+			background-color: red; 
+		}
+
+
+#button-A:hover {
+	background-size: 100% auto; 
+
+		/*	(or cover)*/
+
+			background-image: url('a.jpg'); 	
+
+}

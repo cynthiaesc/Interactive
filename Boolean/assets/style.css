@@ -1,4 +1,4 @@
-/* reset padding and margins */
+
 
 * {
 	margin: auto;
@@ -15,27 +15,22 @@ body {
 
 }
 
-/* container */
+
 
 .container {
 	margin: auto; 
 	position: relative;
 }
 
-/* items */
+
 
 .item {
 	height: 700px;
 	width: 700px;
 	outline: 1px; 
-
-	
-
-	/* comment out 'float: left;' to have items stack in a single column */
 	float: center; 
 
-	/* uncomment this to get CSS transitions (conflicts with jQuery) */
-	/* transition: all 500ms ease; */
+
 }
 
 
@@ -51,35 +46,487 @@ body {
 
 
 .corner {
-  background-color: tomato;
+  background-color: #DD6068;
   transition:background-color .52s ease;
 }
 
-.corner.blue {
-  background-color: red;
+
+
+#intro {
+
+	font-size: 50px;
+	font-family: helvetica light, arial, sans-serif;
 }
 
-.corner.green {
-  background-color: green;
+
+
+#button-A {
+
+	background-size: 300% auto;
+	background-image: url('a.jpg'); 
+	/*opacity: 0.0;*/
+
 }
 
+#button-A:hover {
 
-/* example buttons */
+	background-size: 100% auto;
+	text-align: left;  
+	font-size: 100px; 
+	opacity: 1; 
+	transition: all 3s ease;
+	/*background-image: url('a.jpg'); */
 
-/*.item:hover {
+}
 
-	color: transparent;
-	background-size: 100% auto; 
-	opacity: .2;
+#button-B {
 
-}*/
+	background-size: 300% auto;
+	background-image: url('b.jpg'); 
+	
+}
 
 #button-B:hover {
 
-	opacity: .2;
-	background-size: 100% auto; 
-	background-image: url('b.jpg'); 
-
+	background-size: 100% auto;
+	text-align: left;  
+	font-size: 100px; 
+	opacity: 1; 
+	transition: all 3s ease;
+	
 }
+
+
+#button-C {
+
+	background-size: 300% auto;
+	background-image: url('c.jpg'); 
+	
+}
+
+#button-C:hover {
+
+	background-size: 100% auto;
+	text-align: left;  
+	font-size: 100px; 
+	opacity: 1; 
+	transition: all 3s ease;
+	
+}
+
+
+
+
+#button-D {
+
+	background-size: 300% auto;
+	background-image: url('d.jpg'); 
+	
+}
+
+#button-D:hover {
+
+	background-size: 100% auto;
+	text-align: left;  
+	font-size: 100px; 
+	opacity: 1; 
+	transition: all 3s ease;
+	
+}
+
+
+
+#button-E {
+
+	background-size: 300% auto;
+	background-image: url('e.jpg'); 
+	
+}
+
+#button-E:hover {
+
+	background-size: 100% auto;
+	text-align: left;  
+	font-size: 100px; 
+	opacity: 1; 
+	transition: all 3s ease;
+	
+}
+
+#button-F {
+
+	background-size: 300% auto;
+	background-image: url('f.jpg'); 
+	
+}
+
+#button-F:hover {
+
+	background-size: 100% auto;
+	text-align: left;  
+	font-size: 100px; 
+	opacity: 1; 
+	transition: all 3s ease;
+	
+}
+
+
+#button-G {
+
+	background-size: 300% auto;
+	background-image: url('g.jpg'); 
+	
+}
+
+#button-G:hover {
+
+	background-size: 100% auto;
+	text-align: left;  
+	font-size: 100px; 
+	opacity: 1; 
+	transition: all 3s ease;
+	
+}
+
+
+#button-H {
+
+	background-size: 300% auto;
+	background-image: url('h.jpg'); 
+	
+}
+
+#button-H:hover {
+
+	background-size: 100% auto;
+	text-align: left;  
+	font-size: 100px; 
+	opacity: 1; 
+	transition: all 3s ease;
+	
+}
+
+#button-I {
+
+	background-size: 300% auto;
+	background-image: url('i.jpg'); 
+	
+}
+
+#button-I:hover {
+
+	background-size: 100% auto;
+	text-align: left;  
+	font-size: 100px; 
+	opacity: 1; 
+	transition: all 3s ease;
+	
+}
+
+#button-J {
+
+	background-size: 300% auto;
+	background-image: url('j.jpg'); 
+	
+}
+
+#button-J:hover {
+
+	background-size: 100% auto;
+	text-align: left;  
+	font-size: 100px; 
+	opacity: 1; 
+	transition: all 3s ease;
+	
+}
+
+#button-K {
+
+	background-size: 300% auto;
+	background-image: url('k.jpg'); 
+	
+}
+
+#button-K:hover {
+
+	background-size: 100% auto;
+	text-align: left;  
+	font-size: 100px; 
+	opacity: 1; 
+	transition: all 3s ease;
+	
+}
+
+
+
+
+
+
+
+#button-L {
+
+	background-size: 300% auto;
+	background-image: url('l.jpg'); 
+	
+}
+
+#button-L:hover {
+
+	background-size: 100% auto;
+	text-align: left;  
+	font-size: 100px; 
+	opacity: 1; 
+	transition: all 3s ease;
+	
+}
+
+
+#button-M {
+
+	background-size: 300% auto;
+	background-image: url('m.jpg'); 
+	
+}
+
+#button-M:hover {
+
+	background-size: 100% auto;
+	text-align: left;  
+	font-size: 100px; 
+	opacity: 1; 
+	transition: all 3s ease;
+	
+}
+
+
+#button-N {
+
+	background-size: 300% auto;
+	background-image: url('n.jpg'); 
+	
+}
+
+#button-N:hover {
+
+	background-size: 100% auto;
+	text-align: left;  
+	font-size: 100px; 
+	opacity: 1; 
+	transition: all 3s ease;
+	
+}
+
+
+#button-O {
+
+	background-size: 300% auto;
+	background-image: url('o.jpg'); 
+	
+}
+
+#button-O:hover {
+
+	background-size: 100% auto;
+	text-align: left;  
+	font-size: 100px; 
+	opacity: 1; 
+	transition: all 3s ease;
+	
+}
+
+
+#button-P {
+
+	background-size: 300% auto;
+	background-image: url('p.jpg'); 
+	
+}
+
+#button-P:hover {
+
+	background-size: 100% auto;
+	text-align: left;  
+	font-size: 100px; 
+	opacity: 1; 
+	transition: all 3s ease;
+	
+}
+
+
+#button-Q {
+
+	background-size: 300% auto;
+	background-image: url('q.jpg'); 
+	
+}
+
+#button-Q:hover {
+
+	background-size: 100% auto;
+	text-align: left;  
+	font-size: 100px; 
+	opacity: 1; 
+	transition: all 3s ease;
+	
+}
+
+#button-R {
+
+	background-size: 300% auto;
+	background-image: url('r.jpg'); 
+	
+}
+
+#button-R:hover {
+
+	background-size: 100% auto;
+	text-align: left;  
+	font-size: 100px; 
+	opacity: 1; 
+	transition: all 3s ease;
+	
+}
+
+#button-S {
+
+	background-size: 300% auto;
+	background-image: url('s.jpg'); 
+	
+}
+
+#button-S:hover {
+
+	background-size: 100% auto;
+	text-align: left;  
+	font-size: 100px; 
+	opacity: 1; 
+	transition: all 3s ease;
+	
+}
+
+
+
+#button-T {
+
+	background-size: 300% auto;
+	background-image: url('t.jpg'); 
+	
+}
+
+#button-T:hover {
+
+	background-size: 100% auto;
+	text-align: left;  
+	font-size: 100px; 
+	opacity: 1; 
+	transition: all 3s ease;
+	
+}
+
+#button-U {
+
+	background-size: 300% auto;
+	background-image: url('u.jpg'); 
+	
+}
+
+#button-U:hover {
+
+	background-size: 100% auto;
+	text-align: left;  
+	font-size: 100px; 
+	opacity: 1; 
+	transition: all 3s ease;
+	
+}
+
+#button-V {
+
+	background-size: 300% auto;
+	background-image: url('v.jpg'); 
+	
+}
+
+#button-V:hover {
+
+	background-size: 100% auto;
+	text-align: left;  
+	font-size: 100px; 
+	opacity: 1; 
+	transition: all 3s ease;
+	
+}
+
+
+
+#button-W {
+
+	background-size: 300% auto;
+	background-image: url('w.jpg'); 
+	
+}
+
+#button-W:hover {
+
+	background-size: 100% auto;
+	text-align: left;  
+	font-size: 100px; 
+	opacity: 1; 
+	transition: all 3s ease;
+	
+}
+
+#button-X {
+
+	background-size: 300% auto;
+	background-image: url('x.jpg'); 
+	
+}
+
+#button-X:hover {
+
+	background-size: 100% auto;
+	text-align: left;  
+	font-size: 100px; 
+	opacity: 1; 
+	transition: all 3s ease;
+	
+}
+
+
+#button-Y {
+
+	background-size: 350% auto;
+	background-image: url('y.jpg'); 
+	
+}
+
+#button-Y:hover {
+
+	background-size: 100% auto;
+	text-align: left;  
+	font-size: 100px; 
+	opacity: 1; 
+	transition: all 3s ease;
+	
+}
+
+#button-Z {
+
+	background-size: 300% auto;
+	background-image: url('z.jpg'); 
+	
+}
+
+#button-Z:hover {
+
+	background-size: 100% auto;
+	text-align: left;  
+	font-size: 100px; 
+	opacity: 1; 
+	transition: all 3s ease;
+	
+}
+
 
 

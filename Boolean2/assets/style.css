@@ -23,7 +23,9 @@ body {
 		}
 
 		#button-A:hover {
-			background-size: 100% auto; 
+			animation: ease;
+			background-size: 125% auto;
+
 
 		/*	(or cover)*/
 
