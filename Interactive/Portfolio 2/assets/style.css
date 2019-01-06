@@ -1,0 +1,226 @@
+body{
+	/*background-color: #F9F9F9;*/
+	background-color: white;
+	font-family: "roboto"; 
+	/*text-transform: lowercase;*/
+	
+}
+
+
+
+
+	a {
+	text-decoration: none;
+	color: inherit;
+}
+
+	a:visited {
+    text-decoration: inherit; 
+
+}
+
+	a:hover {
+    /*text-decoration: underline;*/
+    color: #FF488D; 
+    font-weight: 700; 
+    cursor: crosshair;
+    
+}
+
+
+h1 {
+	font-size:  30px;
+	font-weight: 700; 
+	letter-spacing: .30px;
+	text-transform: lowercase;
+
+}
+
+
+h2 {
+	font-size: 20px; 
+	font-weight: 400;
+	color: black;
+	line-height: .5; 
+	letter-spacing: .60px;
+}
+
+h3 {
+	font-size: 15px; 
+	font-weight: 400;
+	color:  black;
+	letter-spacing: .5px;
+	text-transform: lowercase;
+
+	
+}
+
+h4 {
+	font-size: 15px; 
+	font-weight: 100;
+	color: black;
+	
+}
+
+h5 {
+	
+	font-size: 13px; 
+	font-weight: 100;
+	color: grey;
+	
+}
+
+h6 {
+	/*font-size: 18px; 
+	font-weight: 100;
+	color: grey;
+	text-decoration: underline;*/
+	font-size: 17px; 
+	font-weight: 400;
+	color:  #FF488D;
+	letter-spacing: .5px;
+	text-transform: lowercase;
+	/*line-height: -10; */
+	/*margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+*/
+	
+}
+
+
+
+
+
+.site_header{
+ 
+	margin: 10px;
+
+}
+
+
+.header {
+
+    letter-spacing: 1px;
+    position: fixed;
+    top: 10px;
+    left: 100px;
+    line-height: 0; 
+    
+}
+
+
+.navigation {
+	position: fixed;
+	float: right;
+    top: -25px;
+    right: 110px;
+    
+}
+
+.nav {
+
+	position: absolute;
+	letter-spacing: 1px;
+    top: 30px;
+    left: 100px;
+   
+
+}
+
+.index { 
+	position: absolute;
+	letter-spacing: 1px;
+    top: 35px;
+    left: 100px;
+   
+  
+}
+
+
+.container {
+	
+	text-align: center;
+    padding: 100px 0px 70px 0px;
+}
+
+.item {
+	margin: 0px 25px 20px 25px; 
+	display: inline-block;
+    text-align: left;
+    line-height: 0; 
+}
+
+/*.item:hover {
+	border-color:  grey; 
+	border-style: solid; 
+	border-width: .1px; 
+	padding: 1px 5px 0px 5px; 
+} */
+
+.intro {
+	position: fixed;
+	padding-right: 60vw; 
+	margin: 70px 5vw 0vw 80px;  
+
+}
+
+.line {
+
+	
+  	height: 1px;
+  	width: 80px;
+  	background-color: black;
+  	margin-top: -10px;
+
+
+  	
+}
+
+.contact {
+	position: absolute;
+	padding-right: 10vw;
+	margin: 36px 0vw 0vw 750px;
+	
+	 
+
+}
+
+
+
+.images {
+	position: absolute;
+	background-color: none; 
+	padding-right: 10vw; 
+	margin: 60px 100vw 0vw 650px; 
+}
+
+img {
+	width: 250px;
+	height: 250px;
+   
+}
+
+
+.illust{
+	width: 700px;
+	height: auto; 
+}
+
+.block {
+
+	height: 1.25px;
+  	width: 250px;
+  	margin-left: 90px; 
+  	background-color: black;
+  	position: relative;
+
+}
+
+/*.container:hover .item {
+  opacity: 3;
+}*/
+
+	
+
